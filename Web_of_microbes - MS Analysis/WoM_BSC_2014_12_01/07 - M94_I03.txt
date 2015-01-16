@@ -1,0 +1,11 @@
+name	chemical formula	neutral mass	rt (min)	protocol	assertion value	assertion confidence	
+thymine	C5H6N2O2	126.0429274	2.93	WoM	E	5	
+tyrosine	C9H11NO3	181.0738932	10.62	WoM	N	1	
+uracil	C4H4N2O2	112.0272774	3.5	WoM	E	5	
+betaine	C5H11NO2	117.0789786	7.35	WoM	N	1	
+(pyridoxine)	C8H11NO3	169.0738932	3.2	WoM	N	1	
+monosaccharides (fructose, mannose, glucose, galactose, inositols)	C6H12O6	180.0633881	11	WoM	I	5	
+disaccharide 1 (sucrose, maltose, trehalose, cellobiose, lactose, etc)	C12H22O11	342.1162115	12.25	WoM	N	1	
+disaccharide 2 (sucrose, maltose, trehalose, cellobiose, lactose, etc)	C12H22O11	342.1162115	13.5	WoM	I	5	
+lactate	C3H6O3	90.03169405	8.05	WoM	N	1	
+aspartate	C4H7NO4	133.0375077	14.2	WoM	I	5	

@@ -1,0 +1,17 @@
+name	chemical formula	neutral mass	rt (min)	protocol	assertion value	assertion confidence	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	

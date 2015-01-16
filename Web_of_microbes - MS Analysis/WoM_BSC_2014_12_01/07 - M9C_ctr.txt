@@ -1,0 +1,47 @@
+name	chemical formula	neutral mass	rt (min)	protocol	assertion value	assertion confidence	
+adenine	C5H5N5	135.0544952	5.2	WoM	D	1	
+adenosine	C10H13N5O4	267.0967539	5.3	WoM	D	1	
+cytidine	C9H13N3O5	243.0855205	8.25	WoM	D	1	
+glutamate	C5H9NO4	147.0531578	13.95	WoM	D	1	
+glutamine	C5H10N2O3	146.0691422	12.75	WoM	D	1	
+guanine	C5H5N5O	151.0494098	8.42	WoM	D	1	
+guanosine	C10H13N5O5	283.0916685	9.3	WoM	D	1	
+hypoxanthine	C5H4N4O	136.0385108	5.92	WoM	D	1	
+inosine	C10H12N4O5	268.0807695	7.42	WoM	D	1	
+isoleucine	C6H13NO2	131.0946287	8.08	WoM	D	1	
+leucine	C6H13NO2	131.0946287	8.5	WoM	D	1	
+methionine	C5H11NO2S	149.0510496	9.15	WoM	D	1	
+nicotinamide	C6H6N2O	122.0480128	2.85	WoM	D	1	
+ornithine	C5H12N2O2	132.0898776	13.55	WoM	D	1	
+phenylalanine	C9H11NO2	165.0789786	8.1	WoM	D	1	
+proline	C5H9NO2	115.0633285	9.35	WoM	D	1	
+thymidine	C10H14N2O5	242.0902716	3.02	WoM	D	1	
+thymine	C5H6N2O2	126.0429274	2.93	WoM	D	1	
+tryptophan	C11H12N2O2	204.0898776	9.12	WoM	D	1	
+tyrosine	C9H11NO3	181.0738932	10.62	WoM	D	1	
+uracil	C4H4N2O2	112.0272774	3.5	WoM	D	1	
+uridine	C9H12N2O6	244.0695361	5.75	WoM	D	1	
+xanthine	C5H4N4O2	152.0334254	6.9	WoM	D	1	
+betaine	C5H11NO2	117.0789786	7.35	WoM	D	1	
+ectoine	C6H10N2O2	142.0742276	10.01	WoM	D	1	
+y-guanidinobutyrate	C5H11N3O2	145.0851266	12.08	WoM	D	1	
+(pyridoxine)	C8H11NO3	169.0738932	3.2	WoM	D	1	
+monosaccharides (fructose, mannose, glucose, galactose, inositols)	C6H12O6	180.0633881	11	WoM	D	1	
+(glycerophosphocholine)	C8H20NO6P	257.102824	12	WoM	D	1	
+disaccharide 1 (sucrose, maltose, trehalose, cellobiose, lactose, etc)	C12H22O11	342.1162115	12.25	WoM	D	1	
+disaccharide 2 (sucrose, maltose, trehalose, cellobiose, lactose, etc)	C12H22O11	342.1162115	13.5	WoM	D	1	
+lactate	C3H6O3	90.03169405	8.05	WoM	D	1	
+valine	C5H11NO2	117.0789786	9.58	WoM	D	1	
+succinate	C4H6O4	118.0266087	13.85	WoM	D	1	
+niacin	C6H5NO2	123.0320284	6.82	WoM	D	1	
+pyroglutamate	C5H7NO3	129.0425931	9.75	WoM	D	1	
+salicylate	C7H6O3	138.0316941	2.8	WoM	D	1	
+phenylalaine	C9H11NO2	165.0789786	8.15	WoM	D	1	
+citrulline	C6H13N3O3	175.0956913	13.57	WoM	D	1	
+mannitol	C6H14O6	182.0790382	10.2	WoM	D	1	
+(acetylglutamate)	C7H11NO5	189.0637225	14.35	WoM	D	1	
+(tryptophan)	C11H12N2O2	204.0898776	9.15	WoM	D	1	
+2'-deoxyuridine	C9H12N2O5	228.0746215	3.75	WoM	D	1	
+2'-deoxyguanosine	C10H13N5O4	267.0967539	7.83	WoM	D	1	
+trisacharide (raffinose)	C18H32O16	504.1690349	14.3	WoM	D	1	
+stachyose	C24H42O21	666.2218584	16.31	WoM	D	1	

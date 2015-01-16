@@ -1,0 +1,332 @@
+index	status	name	fid	polarity	group	inclusion_order	normalization_factor
+0	0	140703 Ext Blank_1A.mzML	11418	pos	group1
+1	0	140703 Ext Blank_2.mzML	11419	pos	group1
+2	0	140703 Ext Blank_3.mzML	11420	pos	group1
+3	0	140703 R2A Rep1 Isolate_9.mzML	11422	pos	group1
+4	0	140703 R2A Rep1 Isolate_16.mzML	11421	pos	group1
+5	0	140703 R2A Rep3 Isolate_4.mzML	11425	pos	group1
+6	0	140703 R2A Rep3 Isolate_2.mzML	11424	pos	group1
+7	0	140707 Neg R2A Rep1 Isolate_12.mzML	11426	pos	group1
+8	0	140707 Neg R2A Rep1 Isolate_4.mzML	11428	pos	group1
+9	0	140707 Neg R2A Rep2 Isolate_3.mzML	11429	pos	group1
+10	0	140714 Neg M94 Rep1 Isolate_12.mzML	11434	pos	group1
+11	0	140707 Neg R2A Rep1 Isolate_3.mzML	11427	pos	group1
+12	0	140714 Neg M94 Rep1 Isolate_9.mzML	11436	pos	group1
+13	0	140714 Neg M94 Rep1 Isolate_15.mzML	11435	pos	group1
+14	0	140714 Neg M94 Rep2 Isolate_12.mzML	11437	pos	group1
+15	0	140711 M94 Rep2 Control.mzML	11431	pos	group1
+16	0	140711 M94 Rep2 Isolate_1.mzML	11432	pos	group1
+17	0	140714 Neg M94 Rep2 Isolate_7.mzML	11438	pos	group1
+18	0	140711 M94 Rep3 Isolate_7.mzML	11433	pos	group1
+19	0	140714 Neg M94 Rep3 Isolate_7.mzML	11439	pos	group1
+20	0	140718 M9C Ext Blank_2.mzML	11440	pos	group1
+21	0	140718 M9C Rep2 Isolate_14.mzML	11441	pos	group1
+22	0	140721 M9C  Neg Rep2 Isolate_6.mzML	11446	pos	group1
+23	0	140721 M9C  Neg Rep2 Isolate_1.mzML	11444	pos	group1
+24	0	140718 M9C Rep3 Isolate_14.mzML	11442	pos	group1
+25	0	140718 M9C Rep3 Isolate_16.mzML	11443	pos	group1
+26	0	140703 R2A Rep1 Isolate_11.mzML	11447	pos	group1
+27	0	140721 M9C  Neg Rep2 Isolate_14.mzML	11445	pos	group1
+28	0	140703 R2A Rep2 Isolate_11.mzML	11448	pos	group1
+29	0	140703 R2A Rep2 Isolate_14.mzML	11449	pos	group1
+30	0	140703 R2A Rep3 Isolate_8.mzML	11453	pos	group1
+31	0	140703 R2A Rep2 Isolate_3.mzML	11450	pos	group1
+32	0	140703 R2A Rep3 Isolate_11.mzML	11451	pos	group1
+33	0	140707 Neg Ext Blank_3 Rerun B.mzML	11454	pos	group1
+34	0	140707 Neg R2A Rep1 Isolate_6.mzML	11457	pos	group1
+35	0	140707 Neg R2A Rep1 Isolate_2.mzML	11456	pos	group1
+36	0	140703 R2A Rep3 Isolate_5.mzML	11452	pos	group1
+37	0	140707 Neg R2A Rep1 Isolate_10.mzML	11455	pos	group1
+38	0	140707 Neg R2A Rep3 Isolate_12.mzML	11460	pos	group1
+39	0	140707 Neg R2A Rep3 Isolate_14.mzML	11461	pos	group1
+40	0	140707 Neg R2A Rep2 Isolate_4.mzML	11458	pos	group1
+41	0	140707 Neg R2A Rep2 Isolate_8.mzML	11459	pos	group1
+42	0	140714 Neg M94 Rep2 Isolate_10.mzML	11473	pos	group1
+43	0	140711 M94 Rep2 Isolate_16.mzML	11465	pos	group1
+44	0	140711 M94 Rep2 Isolate_13.mzML	11464	pos	group1
+45	0	140714 Neg M94 Rep2 Control.mzML	11472	pos	group1
+46	0	140718 M9C Rep1 Isolate_14.mzML	11474	pos	group1
+47	0	140721 M9C  Neg Rep3 Isolate_14.mzML	11484	pos	group1
+48	0	140721 M9C  Neg Rep3 Isolate_4.mzML	11485	pos	group1
+49	0	140721 M9C  Neg Rep3 Isolate_6.mzML	11486	pos	group1
+50	0	140718 M9C Rep3 Isolate_10.mzML	11477	pos	group1
+51	0	140718 M9C Rep1 Isolate_3.mzML	11475	pos	group1
+52	0	140718 M9C Rep2 Isolate_8.mzML	11476	pos	group1
+53	0	140703 R2A Rep1 Isolate_6.mzML	11488	pos	group1
+54	0	140703 R2A Rep1 Isolate_12.mzML	11487	pos	group1
+55	0	140703 R2A Rep1 Isolate_7.mzML	11489	pos	group1
+56	0	140703 R2A Rep1 Isolate_8.mzML	11490	pos	group1
+57	0	140703 R2A Rep2 Isolate_10.mzML	11491	pos	group1
+58	0	140711 M94 Rep1 Isolate_12.mzML	11504	pos	group1
+59	0	140711 M94 Rep1 Control B Rerun.mzML	11503	pos	group1
+60	0	140711 M94 Rep1 Isolate_13.mzML	11505	pos	group1
+61	0	140711 M94 Rep1 Isolate_6 B Rerun.mzML	11506	pos	group1
+62	0	140711 M94 Rep2 Isolate_14.mzML	11507	pos	group1
+63	0	140711 M94 Rep3 Isolate_10.mzML	11508	pos	group1
+64	0	140714 Neg M94 Rep3 Isolate_3.mzML	11515	pos	group1
+65	0	140711 M94 Rep2 Isolate_7.mzML	11466	pos	group1
+66	0	140718 M9C Rep1 Isolate_1.mzML	11516	pos	group1
+67	0	140711 M94 Rep3 Isolate_1.mzML	11467	pos	group1
+68	0	140714 Neg M94 Rep1 Control.mzML	11469	pos	group1
+69	0	140714 Neg M94 Rep1 Isolate_7.mzML	11471	pos	group1
+70	0	140718 M9C Rep1 Isolate_12.mzML	11517	pos	group1
+71	0	140711 M94 Rep3 Isolate_8.mzML	11468	pos	group1
+72	0	140714 Neg M94 Rep1 Isolate_11.mzML	11470	pos	group1
+73	0	140718 M9C Rep3 Isolate_13.mzML	11478	pos	group1
+74	0	140721 M9C  Neg Rep2 Control.mzML	11480	pos	group1
+75	0	140721 M9C  Neg Rep2 Isolate_4.mzML	11481	pos	group1
+76	0	140721 M9C  Neg Rep2 Isolate_8.mzML	11483	pos	group1
+77	0	140721 M9C  Neg Rep2 Isolate_5.mzML	11482	pos	group1
+78	0	140703 R2A Rep2 Isolate_6.mzML	11492	pos	group1
+79	0	140703 R2A Rep3 Isolate_3.mzML	11494	pos	group1
+80	0	140707 Neg R2A Rep1 Isolate_1.mzML	11495	pos	group1
+81	0	140703 R2A Rep2 Isolate_9.mzML	11493	pos	group1
+82	0	140707 Neg R2A Rep1 Isolate_8.mzML	11496	pos	group1
+83	0	140707 Neg R2A Rep2 Isolate_1.mzML	11497	pos	group1
+84	0	140707 Neg R2A Rep3 Isolate_16.mzML	11500	pos	group1
+85	0	140707 Neg R2A Rep2 Isolate_2.mzML	11499	pos	group1
+86	0	140707 Neg R2A Rep3 Isolate_3.mzML	11501	pos	group1
+87	0	140707 Neg R2A Rep3 Isolate_8.mzML	11502	pos	group1
+88	0	140711 M94 Rep3 Isolate_16.mzML	11509	pos	group1
+89	0	140714 Neg M94 Rep1 Isolate_8.mzML	11511	pos	group1
+90	0	140714 Neg M94 Rep2 Isolate_15.mzML	11513	pos	group1
+91	0	140714 Neg M94 Rep3 Isolate_15.mzML	11514	pos	group1
+92	0	140714 Neg M94 Rep1 Isolate_10.mzML	11510	pos	group1
+93	0	140714 Neg M94 Rep2 Isolate_1.mzML	11512	pos	group1
+94	0	140711 M94 Rep2 Isolate_12.mzML	11463	pos	group1
+95	0	140721 M9C  Neg Rep1 Control.mzML	11522	pos	group1
+96	0	140721 M9C  Neg Rep2 Isolate_15.mzML	11525	pos	group1
+97	0	140721 M9C  Neg Rep1 Isolate_10.mzML	11523	pos	group1
+98	0	140721 M9C  Neg Rep1 Isolate_5.mzML	11524	pos	group1
+99	0	140718 M9C Rep2 Control.mzML	11518	pos	group1
+100	0	140718 M9C Rep2 Isolate_5.mzML	11519	pos	group1
+101	0	140718 M9C Rep3 Isolate_15.mzML	11521	pos	group1
+102	0	140718 M9C Rep3 Control.mzML	11520	pos	group1
+103	0	140721 M9C  Neg Rep3 Isolate_15.mzML	11526	pos	group1
+104	0	140703 R2A Rep1 Isolate_4.mzML	11528	pos	group1
+105	0	140703 R2A Rep2 Isolate_15.mzML	11530	pos	group1
+106	0	140703 R2A Rep3 Isolate_10.mzML	11533	pos	group1
+107	0	140703 R2A Rep3 Control.mzML	11532	pos	group1
+108	0	140703 R2A Rep2 Isolate_5.mzML	11531	pos	group1
+109	0	140703 R2A Rep3 Isolate_14.mzML	11534	pos	group1
+110	0	140707 Neg R2A Rep1 Isolate_11.mzML	11536	pos	group1
+111	0	140707 Neg Ext Blank_3 Rerun.mzML	11535	pos	group1
+112	0	140707 Neg R2A Rep1 Isolate_14.mzML	11537	pos	group1
+113	0	140707 Neg R2A Rep1 Isolate_16.mzML	11538	pos	group1
+114	0	140707 Neg R2A Rep2 Isolate_12.mzML	11540	pos	group1
+115	0	140707 Neg R2A Rep2 Isolate_5.mzML	11541	pos	group1
+116	0	140707 Neg R2A Rep2 Isolate_11.mzML	11539	pos	group1
+117	0	140707 Neg R2A Rep2 Isolate_9.mzML	11542	pos	group1
+118	0	140707 Neg R2A Rep3 Isolate_5.mzML	11543	pos	group1
+119	0	140707 Neg R2A Rep3 Isolate_7.mzML	11544	pos	group1
+120	0	140711 M94 Rep2 Isolate_2.mzML	11546	pos	group1
+121	0	140711 M94 Ext Blank_2.mzML	11545	pos	group1
+122	0	140711 M94 Rep2 Isolate_4.mzML	11547	pos	group1
+123	0	140703 R2A Rep1 Isolate_14.mzML	11527	pos	group1
+124	0	140714 Neg M94 Rep2 Isolate_13.mzML	11552	pos	group1
+125	0	140714 Neg M94 Rep1 Isolate_1.mzML	11550	pos	group1
+126	0	140714 Neg M94 Rep1 Isolate_6.mzML	11551	pos	group1
+127	0	140714 Neg M94 Rep2 Isolate_14.mzML	11553	pos	group1
+128	0	140714 Neg M94 Rep2 Isolate_3.mzML	11554	pos	group1
+129	0	140714 Neg M94 Rep3 Isolate_16.mzML	11556	pos	group1
+130	0	140711 M94 Rep3 Isolate_4.mzML	11549	pos	group1
+131	0	140703 R2A Rep2 Isolate_1.mzML	11529	pos	group1
+132	0	140718 M9C Rep1 Isolate_15.mzML	11557	pos	group1
+133	0	140718 M9C Rep1 Isolate_16.mzML	11558	pos	group1
+134	0	140718 M9C Rep1 Isolate_2.mzML	11559	pos	group1
+135	0	140721 M9C  Neg Ext Blank_1.mzML	11563	pos	group1
+136	0	140718 M9C Rep3 Isolate_2.mzML	11562	pos	group1
+137	0	140721 M9C  Neg Ext Blank_3.mzML	11564	pos	group1
+138	0	140718 M9C Rep3 Isolate_1.mzML	11561	pos	group1
+139	0	140721 M9C  Neg Rep1 Isolate_15.mzML	11565	pos	group1
+140	0	140721 M9C  Neg Rep3 Isolate_7.mzML	11566	pos	group1
+141	0	140703 R2A Rep1 Isolate_2.mzML	11567	pos	group1
+142	0	140714 Neg M94 Rep2 Isolate_8.mzML	11555	pos	group1
+143	0	140703 R2A Rep2 Isolate_2.mzML	11569	pos	group1
+144	0	140703 R2A Rep3 Isolate_13.mzML	11572	pos	group1
+145	0	140718 M9C Rep2 Isolate_16.mzML	11560	pos	group1
+146	0	140711 M94 Rep1 Isolate_1 B Rerun.mzML	11579	pos	group1
+147	0	140707 Neg Ext Blank_1B.mzML	11575	pos	group1
+148	0	140703 R2A Rep3 Isolate_7.mzML	11574	pos	group1
+149	0	140707 Neg R2A Rep2 Isolate_10.mzML	11576	pos	group1
+150	0	140707 Neg R2A Rep3 Isolate_4.mzML	11578	pos	group1
+151	0	140711 M94 Rep1 Isolate_2 B Rerun.mzML	11582	pos	group1
+152	0	140711 M94 Rep1 Isolate_11.mzML	11580	pos	group1
+153	0	140711 M94 Rep2 Isolate_6.mzML	11583	pos	group1
+154	0	140703 R2A Rep2 Isolate_8.mzML	11571	pos	group1
+155	0	140703 R2A Rep2 Isolate_4.mzML	11570	pos	group1
+156	0	140711 M94 Rep3 Isolate_11.mzML	11584	pos	group1
+157	0	140714 Neg M94 Rep1 Isolate_2.mzML	11587	pos	group1
+158	0	140714 Neg M94 Rep2 Isolate_5.mzML	11589	pos	group1
+159	0	140714 Neg M94 Rep3 Control.mzML	11590	pos	group1
+160	0	140714 Neg M94 Rep3 Isolate_11.mzML	11591	pos	group1
+161	0	140714 Neg M94 Rep1 Isolate_3.mzML	11588	pos	group1
+162	0	140714 Neg M94 Rep3 Isolate_2.mzML	11592	pos	group1
+163	0	140718 M9C Rep1 Isolate_8.mzML	11594	pos	group1
+164	0	140718 M9C Rep1 Isolate_5.mzML	11593	pos	group1
+165	0	140718 M9C Rep2 Isolate_13.mzML	11595	pos	group1
+166	0	140721 M9C  Neg Rep1 Isolate_13.mzML	11600	pos	group1
+167	0	140721 M9C  Neg Rep1 Isolate_1.mzML	11599	pos	group1
+168	0	140718 M9C Rep2 Isolate_6.mzML	11596	pos	group1
+169	0	140718 M9C Rep3 Isolate_12.mzML	11598	pos	group1
+170	0	140718 M9C Rep2 Isolate_9.mzML	11597	pos	group1
+171	0	140721 M9C  Neg Rep1 Isolate_14.mzML	11601	pos	group1
+172	0	140721 M9C  Neg Rep1 Isolate_7.mzML	11602	pos	group1
+173	0	140721 M9C  Neg Rep1 Isolate_9.mzML	11603	pos	group1
+174	0	140714 Neg M94 Rep1 Isolate_14.mzML	11586	pos	group1
+175	0	140711 M94 Rep3 Isolate_5.mzML	11585	pos	group1
+176	0	140703 Ext Blank_1B.mzML	11606	pos	group1
+177	0	140703 R2A Rep1 Isolate_3.mzML	11609	pos	group1
+178	0	140707 Neg Ext Blank_1A.mzML	11611	pos	group1
+179	0	140707 Neg R2A Rep1 Isolate_15.mzML	11612	pos	group1
+180	0	140703 R2A Rep3 Isolate_12.mzML	11610	pos	group1
+181	0	140707 Neg R2A Rep3 Isolate_1.mzML	11614	pos	group1
+182	0	140707 Neg R2A Rep1 Isolate_7.mzML	11613	pos	group1
+183	0	140703 R2A Rep1 Isolate_1.mzML	11607	pos	group1
+184	0	140707 Neg R2A Rep3 Isolate_11.mzML	11615	pos	group1
+185	0	140703 R2A Rep1 Isolate_15.mzML	11608	pos	group1
+186	0	140721 M9C  Neg Rep2 Isolate_2.mzML	11604	pos	group1
+187	0	140711 M94 Ext Blank_3B Rerun.mzML	11617	pos	group1
+188	0	140711 M94 Ext Blank_1C Rerun.mzML	11616	pos	group1
+189	0	140711 M94 Rep1 Isolate_4 B Rerun.mzML	11618	pos	group1
+190	0	140714 Neg M94 Ext Blank_2.mzML	11623	pos	group1
+191	0	140714 Neg M94 Ext Blank_1.mzML	11622	pos	group1
+192	0	140711 M94 Rep3 Isolate_13.mzML	11621	pos	group1
+193	0	140711 M94 Rep2 Isolate_3.mzML	11619	pos	group1
+194	0	140711 M94 Rep2 Isolate_5.mzML	11620	pos	group1
+195	0	140714 Neg M94 Rep2 Isolate_2.mzML	11627	pos	group1
+196	0	140714 Neg M94 Rep3 Isolate_1.mzML	11629	pos	group1
+197	0	140714 Neg M94 Rep3 Isolate_14.mzML	11630	pos	group1
+198	0	140714 Neg M94 Rep1 Isolate_5.mzML	11625	pos	group1
+199	0	140714 Neg M94 Rep3 Isolate_4.mzML	11631	pos	group1
+200	0	140714 Neg M94 Rep2 Isolate_11.mzML	11626	pos	group1
+201	0	140718 M9C Rep1 Isolate_10.mzML	11634	pos	group1
+202	0	140721 M9C  Neg Rep1 Isolate_3.mzML	11640	pos	group1
+203	0	140718 M9C Rep1 Isolate_6.mzML	11635	pos	group1
+204	0	140718 M9C Rep2 Isolate_11.mzML	11636	pos	group1
+205	0	140721 M9C  Neg Rep1 Isolate_16.mzML	11639	pos	group1
+206	0	140721 M9C  Neg Rep1 Isolate_4.mzML	11641	pos	group1
+207	0	140718 M9C Rep3 Isolate_11.mzML	11637	pos	group1
+208	0	140721 M9C  Neg Rep1 Isolate_8.mzML	11642	pos	group1
+209	0	140718 M9C Rep3 Isolate_7.mzML	11638	pos	group1
+210	0	140721 M9C  Neg Rep2 Isolate_16.mzML	11643	pos	group1
+211	0	140721 M9C  Neg Rep2 Isolate_9.mzML	11644	pos	group1
+212	0	140721 M9C  Neg Rep3 Control.mzML	11645	pos	group1
+213	0	140721 M9C  Neg Rep3 Isolate_12.mzML	11647	pos	group1
+214	0	140721 M9C  Neg Rep3 Isolate_2.mzML	11648	pos	group1
+215	0	140703 R2A Rep2 Isolate_7.mzML	11649	pos	group1
+216	0	140703 R2A Rep3 Isolate_15.mzML	11650	pos	group1
+217	0	140707 Neg Ext Blank_2.mzML	11653	pos	group1
+218	0	140711 M94 Rep1 Isolate_5 B Rerun.mzML	11659	pos	group1
+219	0	140707 Neg R2A Rep3 Isolate_10.mzML	11655	pos	group1
+220	0	140707 Neg R2A Rep1 Isolate_9.mzML	11654	pos	group1
+221	0	140703 R2A Rep3 Isolate_9.mzML	11652	pos	group1
+222	0	140721 M9C  Neg Rep3 Isolate_11.mzML	11646	pos	group1
+223	0	140711 M94 Rep1 Isolate_15.mzML	11658	pos	group1
+224	0	140711 M94 Rep2 Isolate_10.mzML	11660	pos	group1
+225	0	140711 M94 Ext Blank_1.mzML	11657	pos	group1
+226	0	140711 M94 Rep1 Isolate_10 B Rerun.mzML	11696	pos	group1
+227	0	140711 M94 Rep1 Isolate_3 B Rerun.mzML	11697	pos	group1
+228	0	140711 M94 Rep1 Isolate_7 B Rerun.mzML	11698	pos	group1
+229	0	140711 M94 Rep1 Isolate_8 B Rerun.mzML	11699	pos	group1
+230	0	140711 M94 Rep1 Isolate_9 B Rerun.mzML	11734	pos	group1
+231	0	140707 Neg R2A Rep2 Isolate_14.mzML	11577	pos	group1
+232	0	140721 M9C  Neg Rep3 Isolate_16.mzML	11605	pos	group1
+233	0	140714 Neg M94 Rep1 Isolate_4.mzML	11624	pos	group1
+234	0	140714 Neg M94 Rep2 Isolate_6.mzML	11628	pos	group1
+235	0	140714 Neg M94 Rep3 Isolate_6.mzML	11632	pos	group1
+236	0	140714 Neg M94 Rep3 Isolate_9.mzML	11633	pos	group1
+237	0	140707 Neg R2A Rep3 Isolate_9.mzML	11656	pos	group1
+238	0	140714 Neg M94 Rep1 Isolate_13.mzML	11668	pos	group1
+239	0	140714 Neg M94 Rep2 Isolate_4.mzML	11669	pos	group1
+240	0	140714 Neg M94 Rep3 Isolate_13.mzML	11670	pos	group1
+241	0	140714 Neg M94 Rep3 Isolate_8.mzML	11671	pos	group1
+242	0	140721 M9C  Neg Rep1 Isolate_12.mzML	11681	pos	group1
+243	0	140721 M9C  Neg Rep2 Isolate_10.mzML	11682	pos	group1
+244	0	140721 M9C  Neg Rep2 Isolate_3.mzML	11683	pos	group1
+245	0	140721 M9C  Neg Rep3 Isolate_13.mzML	11684	pos	group1
+246	0	140707 Neg Ext Blank_3 Rerun C.mzML	11689	pos	group1
+247	0	140707 Neg R2A Rep2 Isolate_16.mzML	11690	pos	group1
+248	0	140707 Neg R2A Rep2 Isolate_6.mzML	11691	pos	group1
+249	0	140707 Neg R2A Rep3 Isolate_13.mzML	11692	pos	group1
+250	0	140707 Neg R2A Rep3 Isolate_15.mzML	11693	pos	group1
+251	0	140707 Neg R2A Rep3 Isolate_6.mzML	11694	pos	group1
+252	0	140711 M94 Ext Blank_1B Rerun.mzML	11695	pos	group1
+253	0	140714 Neg M94 Rep2 Isolate_16.mzML	11704	pos	group1
+254	0	140714 Neg M94 Rep2 Isolate_9.mzML	11705	pos	group1
+255	0	140714 Neg M94 Rep3 Isolate_10.mzML	11706	pos	group1
+256	0	140714 Neg M94 Rep3 Isolate_12.mzML	11707	pos	group1
+257	0	140714 Neg M94 Rep3 Isolate_5.mzML	11708	pos	group1
+258	0	140721 M9C  Neg Rep1 Isolate_11.mzML	11716	pos	group1
+259	0	140721 M9C  Neg Rep1 Isolate_2.mzML	11717	pos	group1
+260	0	140721 M9C  Neg Rep1 Isolate_6.mzML	11718	pos	group1
+261	0	140721 M9C  Neg Rep2 Isolate_11.mzML	11719	pos	group1
+262	0	140721 M9C  Neg Rep2 Isolate_12.mzML	11720	pos	group1
+263	0	140721 M9C  Neg Rep2 Isolate_13.mzML	11721	pos	group1
+264	0	140721 M9C  Neg Rep2 Isolate_7.mzML	11722	pos	group1
+265	0	140721 M9C  Neg Rep3 Isolate_10.mzML	11723	pos	group1
+266	0	140721 M9C  Neg Rep3 Isolate_3.mzML	11724	pos	group1
+267	0	140721 M9C  Neg Rep3 Isolate_9.mzML	11725	pos	group1
+268	0	140707 Neg R2A Rep1 Isolate_5.mzML	11730	pos	group1
+269	0	140707 Neg R2A Rep2 Isolate_15.mzML	11731	pos	group1
+270	0	140707 Neg R2A Rep2 Isolate_7.mzML	11732	pos	group1
+271	0	140707 Neg R2A Rep3 Isolate_2.mzML	11733	pos	group1
+272	0	140714 Neg M94 Rep1 Isolate_16.mzML	11736	pos	group1
+273	0	140721 M9C  Neg Rep3 Isolate_1.mzML	11743	pos	group1
+274	0	140721 M9C  Neg Rep3 Isolate_5.mzML	11744	pos	group1
+275	0	140721 M9C  Neg Rep3 Isolate_8.mzML	11745	pos	group1
+276	0	140703 R2A Rep2 Control.mzML	11423	pos	group1
+277	0	140711 M94 Rep1 Isolate_16.mzML	11430	pos	group1
+278	0	140707 Neg R2A Rep2 Isolate_13.mzML	11498	pos	group1
+279	0	140703 R2A Rep1 Isolate_5.mzML	11568	pos	group1
+280	0	140718 M9C Rep3 Isolate_9.mzML	11479	pos	group1
+281	0	140711 M94 Rep3 Isolate_2.mzML	11548	pos	group1
+282	0	140711 M94 Ext Blank_3.mzML	11462	pos	group1
+283	0	140703 R2A Rep3 Isolate_6.mzML	11651	pos	group1
+284	0	140703 R2A Rep3 Isolate_16.mzML	11573	pos	group1
+285	0	140711 M94 Rep2 Isolate_8.mzML	11662	pos	group1
+286	0	140711 M94 Rep2 Isolate_15.mzML	11661	pos	group1
+287	0	140711 M94 Rep1 Isolate_14.mzML	11581	pos	group1
+288	0	140711 M94 Rep3 Isolate_12.mzML	11664	pos	group1
+289	0	140711 M94 Rep2 Isolate_9.mzML	11663	pos	group1
+290	0	140711 M94 Rep3 Isolate_14.mzML	11665	pos	group1
+291	0	140711 M94 Rep3 Isolate_9.mzML	11667	pos	group1
+292	0	140711 M94 Rep3 Isolate_6.mzML	11666	pos	group1
+293	0	140718 M9C Rep1 Control.mzML	11672	pos	group1
+294	0	140718 M9C Rep1 Isolate_13.mzML	11673	pos	group1
+295	0	140718 M9C Rep2 Isolate_10.mzML	11677	pos	group1
+296	0	140718 M9C Rep2 Isolate_12.mzML	11678	pos	group1
+297	0	140718 M9C Rep1 Isolate_7.mzML	11675	pos	group1
+298	0	140718 M9C Rep1 Isolate_9.mzML	11676	pos	group1
+299	0	140718 M9C Rep1 Isolate_4.mzML	11674	pos	group1
+300	0	140718 M9C Rep3 Isolate_3.mzML	11679	pos	group1
+301	0	140718 M9C Rep3 Isolate_6.mzML	11680	pos	group1
+302	0	140703 R2A Rep2 Isolate_13.mzML	11687	pos	group1
+303	0	140703 R2A Rep1 Isolate_10.mzML	11685	pos	group1
+304	0	140703 R2A Rep2 Isolate_12.mzML	11686	pos	group1
+305	0	140718 M9C Rep2 Isolate_15.mzML	11710	pos	group1
+306	0	140718 M9C Rep2 Isolate_2.mzML	11711	pos	group1
+307	0	140714 Neg M94 Ext Blank_3.mzML	11703	pos	group1
+308	0	140711 M94 Rep3 Isolate_3.mzML	11702	pos	group1
+309	0	140703 R2A Rep1 Control.mzML	11726	pos	group1
+310	0	140711 M94 Rep3 Control.mzML	11701	pos	group1
+311	0	140718 M9C Ext Blank_1.mzML	11709	pos	group1
+312	0	140718 M9C Rep2 Isolate_3.mzML	11712	pos	group1
+313	0	140721 M9C  Neg Ext Blank_2.mzML	11715	pos	group1
+314	0	140711 M94 Rep2 Isolate_11.mzML	11700	pos	group1
+315	0	140718 M9C Rep2 Isolate_4.mzML	11713	pos	group1
+316	0	140703 R2A Rep3 Isolate_1.mzML	11688	pos	group1
+317	0	140703 R2A Rep2 Isolate_16.mzML	11727	pos	group1
+318	0	140718 M9C Rep3 Isolate_4.mzML	11714	pos	group1
+319	0	140707 Neg Ext Blank_3.mzML	11728	pos	group1
+320	0	140707 Neg Ext Blank_RESET.mzML	11729	pos	group1
+321	0	140711 M94 Rep3 Isolate_15.mzML	11735	pos	group1
+322	0	140718 M9C Ext Blank_3.mzML	11737	pos	group1
+323	0	140718 M9C Rep2 Isolate_1.mzML	11739	pos	group1
+324	0	140718 M9C Rep1 Isolate_11.mzML	11738	pos	group1
+325	0	140718 M9C Rep2 Isolate_7.mzML	11740	pos	group1
+326	0	140718 M9C Rep3 Isolate_8.mzML	11742	pos	group1
+327	0	140718 M9C Rep3 Isolate_5.mzML	11741	pos	group1
+328	0	140707 Neg R2A Rep2 Control.mzML	24736	pos	group1
+329	0	140707 Neg R2A Rep1 Control.mzML	24735	pos	group1
+330	0	140707 Neg R2A Rep3 Control.mzML	24737	pos	group1

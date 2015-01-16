@@ -1,9 +1,7 @@
 # IGNORE PYTHON CHECKPOINTS
 *.ipynb_checkpoints
-*.png
-*.pdf
-*.txt
-*.zip
+* .pdf
+* .zip
 *.pkl
 # IGNORE THE PASSWORD FILE
 userinfo.txt

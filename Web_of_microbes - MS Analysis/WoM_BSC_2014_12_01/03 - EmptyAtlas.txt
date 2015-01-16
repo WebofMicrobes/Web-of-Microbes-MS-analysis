@@ -1,0 +1,1 @@
+name	pubchem_id	formula	neutral_mass	mz	mz_threshold	adducts	rt_max	rt_min	rt_peak	

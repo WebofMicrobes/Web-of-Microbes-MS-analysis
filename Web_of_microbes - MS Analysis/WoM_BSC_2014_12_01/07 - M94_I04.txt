@@ -1,0 +1,26 @@
+name	chemical formula	neutral mass	rt (min)	protocol	assertion value	assertion confidence	
+adenine	C5H5N5	135.0544952	5.2	WoM	E	5	
+guanine	C5H5N5O	151.0494098	8.42	WoM	E	5	
+hypoxanthine	C5H4N4O	136.0385108	5.92	WoM	E	5	
+N-acetyl-L-phenylalanine	C11H13NO3	207.0895433	4.3	WoM	E	3	
+nicotinamide	C6H6N2O	122.0480128	2.85	WoM	E	3	
+thymidine	C10H14N2O5	242.0902716	3.02	WoM	E	2	
+thymine	C5H6N2O2	126.0429274	2.93	WoM	E	5	
+tyrosine	C9H11NO3	181.0738932	10.62	WoM	N	1	
+uracil	C4H4N2O2	112.0272774	3.5	WoM	E	5	
+creatinine	C4H7N3O	113.0589119	5.5	WoM	E	3	
+betaine	C5H11NO2	117.0789786	7.35	WoM	N	1	
+y-guanidinobutyrate	C5H11N3O2	145.0851266	12.08	WoM	E	4	
+(pyridoxine)	C8H11NO3	169.0738932	3.2	WoM	E	4	
+monosaccharides (fructose, mannose, glucose, galactose, inositols)	C6H12O6	180.0633881	11	WoM	I	5	
+(glycerophosphocholine)	C8H20NO6P	257.102824	12	WoM	N	1	
+disaccharide 1 (sucrose, maltose, trehalose, cellobiose, lactose, etc)	C12H22O11	342.1162115	12.25	WoM	N	1	
+disaccharide 2 (sucrose, maltose, trehalose, cellobiose, lactose, etc)	C12H22O11	342.1162115	13.5	WoM	I	5	
+alanine	C3H7NO2	89.04767847	11.75	WoM	E	3	
+lactate	C3H6O3	90.03169405	8.05	WoM	I	3	
+fumarate	C4H4O4	116.0109586	16	WoM	E	4	
+succinate	C4H6O4	118.0266087	13.85	WoM	E	3	
+pyroglutamate	C5H7NO3	129.0425931	9.75	WoM	N	1	
+aspartate	C4H7NO4	133.0375077	14.2	WoM	N	1	
+salicylate	C7H6O3	138.0316941	2.8	WoM	N	1	
+(acetylglutamate)	C7H11NO5	189.0637225	14.35	WoM	E	5	

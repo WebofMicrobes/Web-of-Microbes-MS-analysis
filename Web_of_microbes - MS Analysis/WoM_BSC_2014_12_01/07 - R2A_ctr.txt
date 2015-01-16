@@ -1,0 +1,34 @@
+name	chemical formula	neutral mass	rt (min)	protocol	assertion value	assertion confidence	
+adenine	C5H5N5	135.0544952	5.2	WoM	D	1	
+adenosine	C10H13N5O4	267.0967539	5.3	WoM	D	1	
+guanine	C5H5N5O	151.0494098	8.42	WoM	D	1	
+guanosine	C10H13N5O5	283.0916685	9.3	WoM	D	1	
+hypoxanthine	C5H4N4O	136.0385108	5.92	WoM	D	1	
+isoleucine	C6H13NO2	131.0946287	8.08	WoM	D	1	
+leucine	C6H13NO2	131.0946287	8.5	WoM	D	1	
+methionine	C5H11NO2S	149.0510496	9.15	WoM	D	1	
+nicotinamide	C6H6N2O	122.0480128	2.85	WoM	D	1	
+phenylalanine	C9H11NO2	165.0789786	8.1	WoM	D	1	
+proline	C5H9NO2	115.0633285	9.35	WoM	D	1	
+threonine	C4H9NO3	119.0582432	12	WoM	D	1	
+thymine	C5H6N2O2	126.0429274	2.93	WoM	D	1	
+tryptophan	C11H12N2O2	204.0898776	9.12	WoM	D	1	
+tyrosine	C9H11NO3	181.0738932	10.6	WoM	D	1	
+uridine	C9H12N2O6	244.0695361	5.75	WoM	D	1	
+creatinine	C4H7N3O	113.0589119	5.5	WoM	D	1	
+betaine	C5H11NO2	117.0789786	7.35	WoM	D	1	
+ectoine	C6H10N2O2	142.0742276	10.01	WoM	D	1	
+y-guanidinobutyrate	C5H11N3O2	145.0851266	12.08	WoM	D	1	
+(pyridoxine)	C8H11NO3	169.0738932	3.2	WoM	D	1	
+monosaccharides (fructose, mannose, glucose, galactose, inositols)	C6H12O6	180.0633881	11	WoM	D	1	
+(glycerophosphocholine)	C8H20NO6P	257.102824	12	WoM	D	1	
+disaccharide 1 (sucrose, maltose, trehalose, cellobiose, lactose, etc)	C12H22O11	342.1162115	12.25	WoM	D	1	
+disaccharide 2 (sucrose, maltose, trehalose, cellobiose, lactose, etc)	C12H22O11	342.1162115	13.5	WoM	D	1	
+alanine	C3H7NO2	89.04767847	11.75	WoM	D	1	
+4-aminobuyrate	C4H9NO2	103.0633285	12.12	WoM	D	1	
+serine	C3H7NO3	105.0425931	13.3	WoM	D	1	
+valine	C5H11NO2	117.0789786	9.58	WoM	D	1	
+asparagine	C4H8N2O3	132.0534921	13.23	WoM	D	1	
+phenylalaine	C9H11NO2	165.0789786	8.15	WoM	D	1	
+mannitol	C6H14O6	182.0790382	10.2	WoM	D	1	
+(tryptophan)	C11H12N2O2	204.0898776	9.15	WoM	D	1	
