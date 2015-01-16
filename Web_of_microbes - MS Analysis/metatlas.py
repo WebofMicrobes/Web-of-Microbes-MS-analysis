@@ -12,6 +12,7 @@ import re
 import sys
 import copy
 from bokeh.plotting import *
+import datetime
 
 def export_peakData_to_spreadsheet(filename,export_fileIds,fileInfo,data,dictData):
 	import csv
@@ -76,6 +77,7 @@ def exportfilelist(myExperimentID, client, wd, filename):
 	fileInfo = {'fid':[],'name':[],'status':[]};
 	print "There are %s files in this experiment. Open the file: \n%s\\%s \nAssign groups, polarity, plot order and \
 normalization factors; save as a txt file." % (len(files['runs']), wd[0],filename)
+	print datetime.datetime.now()
 	fid = open(filename,'wb')
 	fid.write('index\tstatus\tname\tfid\tpolarity\tgroup\tinclusion_order\tnormalization_factor\n')
 	for i,myRun in enumerate(files[u'runs']):
@@ -94,6 +96,7 @@ def getExpName(myExperimentID, experiments):
 		if myExperimentID == experiment[u'_id']:
 			myExpName= experiment[u'name']
 	print "Experiment loaded: %s" % (myExpName)
+	print datetime.datetime.now()
 	return myExpName
 	
 def uploadgroupings(filename):
@@ -108,6 +111,7 @@ def uploadgroupings(filename):
 	fileInfo['status'] = map(int, fileInfo['status'])
 	fileInfo['normalization_factor'] = map(float, fileInfo['normalization_factor'])
 	print "%s - first file" % fileInfo['name'][:1]
+	print datetime.datetime.now()
 	return fileInfo
 	
 def getfileIDs(fileInfo,polarity):
@@ -122,7 +126,7 @@ def getfileIDs(fileInfo,polarity):
 		export_fileIds_pos = []
 		idx_pos=[]
 		for j,each in enumerate(fileInfo['polarity']):
-			if each == "pos":
+			if each.lower() == "pos":
 				export_fileIds_pos.append(fileInfo['fid'][j])
 				idx_pos.append(fileInfo['inclusion_order'][j])
 		idx_pos_sort=np.argsort(idx_pos)
@@ -133,7 +137,7 @@ def getfileIDs(fileInfo,polarity):
 		export_fileIds_neg = []
 		idx_neg=[]
 		for j,each in enumerate(fileInfo['polarity']):
-			if each == "Neg":
+			if each.lower() == "neg":
 				export_fileIds_neg.append(fileInfo['fid'][j])
 				idx_neg.append(fileInfo['inclusion_order'][j])
 		idx_neg_sort=np.argsort(idx_neg)
@@ -142,6 +146,8 @@ def getfileIDs(fileInfo,polarity):
 		return export_fileIds_neg
 	else:
 		print "error"
+	print datetime.datetime.now()
+
 		
 def polaritycheck(selectedpolarity):
 	polarity=selectedpolarity.lower()
@@ -150,6 +156,7 @@ def polaritycheck(selectedpolarity):
 	if polarity == "positive":
 		polarity=1
 	print "polarity set"
+	print datetime.datetime.now()
 	return polarity
 
 def emptyatlas(filename):
@@ -160,6 +167,8 @@ def emptyatlas(filename):
 	fid.write('\n')
 	fid.close()
 	print "Empty atlas template with column labels (%s) saved to working directory" % (filename)
+	print datetime.datetime.now()
+
 		
 def getAtlasList(client):
 	url = 'https://metatlas.nersc.gov/api/dict/'
@@ -168,6 +177,7 @@ def getAtlasList(client):
 	for atlas in allAtlases:
 		atlas_str = '%s has an atlas named %s has the ID: %s' % (atlas[u'creator'],atlas['name'], atlas['_id'])
 		print atlas_str
+	print datetime.datetime.now()
 	return allAtlases
 	
 def getAtlasEntries(atlasID, client, atlasName):
@@ -175,6 +185,7 @@ def getAtlasEntries(atlasID, client, atlasName):
 	r = client.get(url)
 	dictData = json.loads(r.text)
 	print "%s entries in atlas: %s" % (len(dictData[u'compounds']), atlasName)
+	print datetime.datetime.now()
 	return dictData
 
 def getAtlasName(dictID, allAtlases):
@@ -183,6 +194,7 @@ def getAtlasName(dictID, allAtlases):
 		if dictID == atlas['_id']:
 			atlasName=atlas['name']
 	print "Selected atlas: %s" % (atlasName)
+	print datetime.datetime.now()
 	return atlasName
 	
 def addCompAtlas(filename, client, dictId, atlasName):
@@ -191,6 +203,8 @@ def addCompAtlas(filename, client, dictId, atlasName):
 	url = 'https://metatlas.nersc.gov/api/dict/%s/' % dictId
 	r = client.post(url, data=json.dumps(payload))
 	print "%s compounds added to atlas: %s" %(len(payload), atlasName)
+	print datetime.datetime.now()
+
 	
 def exportAtlas(filename, atlasName, dictData):
 	myList = ['name','pubchem_id','formula','neutral_mass','mz','mz_threshold','adducts','rt_max','rt_min','rt_peak']
@@ -204,6 +218,8 @@ def exportAtlas(filename, atlasName, dictData):
 		fid.write('\n')
 	fid.close()
 	print "%s compounds exported from atlas %s (%s)" % (len(dictData[u'compounds']),atlasName,filename)
+	print datetime.datetime.now()
+
 	
 def getEICdata(polarity, expandRTrangeby, comp_start, comp_end, dictData, export_fileIds, exportedfiles, client):
 	if comp_start == None:
@@ -238,6 +254,7 @@ def getEICdata(polarity, expandRTrangeby, comp_start, comp_end, dictData, export
 	if len(dictData[u'compounds'])+1> comp_end:
 		for x in range(comp_end-1,len(dictData[u'compounds'])+1):
 			data.append([])
+	print datetime.datetime.now()
 	return data
 	
 def authenticateUser(userFile):
@@ -341,13 +358,16 @@ def getEICForCompound(compound,myArray,runId,rtTol,client,polarity):
 	return {'eic':data,'xdata':xdata,'ydata':ydata,'name':compound[u'name'],'iMax':iMax,'peakArea':peakArea}
 
 def createChromatogramPlots(data,compound,fitResult,ax):
-	ax.plot(data['xdata'],data['ydata']*data['iMax'],'k-',data['xdata'], fitfunc(fitResult, data['xdata'])*data['iMax'],'r-',linewidth=2.0)
+	#ax.plot(data['xdata'],data['ydata']*data['iMax'],'k-',data['xdata'], fitfunc(fitResult, data['xdata'])*data['iMax'],'r-',linewidth=2.0)
+	ax.plot(data['xdata'],data['ydata']*data['iMax'],'k-', linewidth=2.0)
 	ax.axvline(float(compound[u'rt_min']),linewidth=2, color='k') #original rtMin
 	ax.axvline(float(compound[u'rt_max']),linewidth=2, color='k') #original rtMax
 	ax.axvline(float(compound[u'rt_peak']),linewidth=2, color='g',alpha=0.5) #original rtPeak
 	#     ax.axvline(x=compound[u'rt_peak'],linewidth=2, color='b') #original rtPeak
 	ax.axvline(x=fitResult[1],linewidth=2, color='r') #new rtPeak
-	ax.axvspan(fitResult[1]-fitResult[3]*2, fitResult[1]+fitResult[2]*2, facecolor='c', alpha=0.5) #new rtBounds
+	#ax.axvspan(fitResult[1]-fitResult[3]*2, fitResult[1]+fitResult[2]*2, facecolor='c', alpha=0.5) #new rtBounds
+	#ax.fill_between([float(compound[u'rt_min']),float(compound[u'rt_max'])],[0.0,data['ydata']*data['iMax']],color='blue')
+	ax.fill_between([float(compound[u'rt_min']),float(compound[u'rt_max'])],0.0,data['iMax'],facecolor='c')
 	ax.set_xlabel('Time (min)')
 	ax.set_ylabel('Intensity (au)')
 	ax.set_title(compound[u'name'])
@@ -359,7 +379,9 @@ def createChromatogramPlots_dataOnly(data,compound,ax):
 	ax.axvline(float(compound[u'rt_peak']),linewidth=2, color='g',alpha=0.5) #original rtPeak
 	#     ax.axvline(x=compound[u'rt_peak'],linewidth=2, color='b') #original rtPeak
 	# ax.axvline(x=fitResult[1],linewidth=2, color='r') #new rtPeak
-	# ax.axvspan(fitResult[1]-fitResult[3]*2, fitResult[1]+fitResult[2]*2, facecolor='c', alpha=0.5) #new rtBounds
+	ax.axvspan(fitResult[1]-fitResult[3]*2, fitResult[1]+fitResult[2]*2, facecolor='c', alpha=0.5) #new rtBounds
+	ax.axvspan(float(compound[u'rt_min']), float(compound[u'rt_max']), facecolor='c', alpha=0.5)
+	ax.fill_between([15.0,15.5],[0.0,10000.0],color='blue')
 	ax.set_xlabel('Time (min)')
 	ax.set_ylabel('Intensity (au)')
 	ax.set_title(compound[u'name'])
@@ -529,21 +551,24 @@ def outputofEICdatatotxt(export_fileIds, fileInfo, filename, dictData, data, rul
 	print "output file saved to working directory: %s" % filename
 
 def splitresultsforWoM(export_fileIds,resultsfile,fileInfo):
-	export_groups = []
-	for i,myFile in enumerate(export_fileIds):
-		for j,fid in enumerate(fileInfo['fid']):
-			if fid == myFile:
-				export_groups.append(fileInfo['group'][j])    	
-	uniquegroupfiles=[]
-	for each in export_groups:
-		if '06 - %s.txt' % (each) not in uniquegroupfiles:
-			uniquegroupfiles.append('06 - %s.txt' % (each))
+	#export_groups = []
+#	for i,myFile in enumerate(export_fileIds):
+#		for j,fid in enumerate(fileInfo['fid']):
+#			if fid == myFile:
+#				export_groups.append(fileInfo['group'][j])    	
+#	uniquegroupfiles=[]
+#	for each in export_groups:
+#		if '07 - %s.txt' % (each) not in uniquegroupfiles:
+#			uniquegroupfiles.append('07 - %s.txt' % (each))
 	
 	with open(resultsfile, 'rU') as results_obj:
 		headorder=csv.DictReader(results_obj,dialect='excel-tab')
 		ho=headorder.fieldnames    # get the upload order of the fileheadings
 		newresults = list(headorder) #dictionary is unordered, use ho to reorder headings and row values
-
+	uniquegroupfiles=[]
+	for k, each in enumerate(newresults):
+		if '07 - %s.txt' %(each['group']) not in uniquegroupfiles:
+			uniquegroupfiles.append('07 - %s.txt' % (each['group']))
 	for each in uniquegroupfiles: 
 		print each,
 		newfile=open(each,'wb')
@@ -551,7 +576,7 @@ def splitresultsforWoM(export_fileIds,resultsfile,fileInfo):
 			newfile.write('%s\t' % head)
 		newfile.write('\n')
 		for j, line in enumerate(newresults):
-			if '%s.txt' %(line['group'])==each:
+			if '07 - %s.txt' %(line['group'])==each:
 				newrowtext=[line[i] for i in ho[1:]]
 				 # reorders row values into original upload order
 				for val in newrowtext:
